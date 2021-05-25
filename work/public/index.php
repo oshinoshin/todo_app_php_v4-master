@@ -46,7 +46,7 @@ $todos = $todo->getAll();
           data-token="<?= Utils::h($_SESSION['token']); ?>"
           <?= $todo->is_done ? 'checked' : ''; ?>>
 
-        <span class="<?= $todo->is_done ? 'done' : ''; ?>">
+        <span>
           <?= Utils::h($todo->title); ?>
         </span>
 
