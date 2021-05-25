@@ -26,8 +26,8 @@ class Todo
           $this->toggle();
           break;
         case 'delete':
-          break;
           $this->delete();
+          break;
         case 'purge':
           $this->purge();
           break;
