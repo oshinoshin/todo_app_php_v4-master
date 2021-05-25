@@ -2,7 +2,6 @@
 
 namespace MyApp;
 
-
 class Todo
 {
   private $pdo;
@@ -27,6 +26,7 @@ class Todo
           $this->toggle();
           break;
         case 'delete':
+          break;
           $this->delete();
         case 'purge':
           $this->purge();
